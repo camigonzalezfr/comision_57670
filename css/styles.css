@@ -9,43 +9,71 @@
 }
 
 
+/* NAV BAR - BOOTSTRAP */
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler-icon{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.container-fluid{
+    padding: 0 135px;
+    align-items: center;
+}
+
+.nav-item{
+    letter-spacing: 6px;
+    font-size: 14px;
+}
+
+.nav-item:hover{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.nav-item-active{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-decoration: none;
+    letter-spacing: 6px;
+    font-size: 14px;
+}
+
+.nav-link.mx-lg-2{
+    color: #000000;
+}
+
+.offcanvas.offcanvas-end.show{
+    background-color: #3C4541;
+    padding: 40px;
+}
+
+.offcanvas.offcanvas-end.show 
+
 /* ESTILOS DE LA NAV BAR */
-
-.navBar{
-    letter-spacing: 5px;
-    font-size: 13px;
-}
-
-.navBar:hover{
-    letter-spacing: 5px;
-    font-size: 13px;
-    text-decoration: underline;
-}
-
-.actualNavBar{
-    letter-spacing: 5px;
-    font-size: 13px;
-    text-decoration: underline;
-}
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 nav ul{
     display: flex;
-    gap: 8.75rem;
-    width: 90%;
-    justify-content: center;
+    gap: 90px;
 }
 
-.logoNav{
-    width: auto;
-    margin-left: 140px;
+
+
+/* main top */
+main{
+    margin-top: 150px;
 }
 
 
@@ -58,7 +86,6 @@ nav ul{
     margin-right: 135px;
     margin-top: -80px;
     position: relative;
-
 }
 
 .barraBuscar img{
@@ -83,6 +110,7 @@ nav ul{
 /* titulo principal */
 h1{
     font-size: 100px;
+    font-weight: 700;
     color: #BED3CA;
     margin-left: 135px;
     margin-top: 40px;
@@ -668,55 +696,56 @@ h1{
 }
 
 
-/* ESTILOS DEL FOOTER */
 
-footer{
+/* ESTILOS DEL FOOTER - BOOTSTRAP*/
+
+footer .container-fluid{
     background-color: #3C4541;
-    padding: 20px 0;
+    padding: 20px 120px;
     width: 100%;
 }
 
-.contenedorFooter{
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 20px;
+.col-xs-12.col-md-6.col-lg-3{
+    text-align: left;
 }
 
-.footerMain{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
+.col-xs-12.col-md-6.col-lg-3 p{
+    padding-left: 32px;
+    padding-bottom: 20px;
 }
 
-.columnaFooter{
-    flex: 1;
-    min-width: 200px;
-    margin: 10px 20px;
-}
-
-.columnaFooter img{
-    max-width: 100%;
-    height: auto;
-}
-
-.tituloFooter{
-    font-size: 16px;
-    font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 10px;
+.col-xs-12.col-md-6.col-lg-3 ul li{
+    padding: 5px 0;
 }
 
 .textoFooter{
     font-size: 14px;
     font-weight: 500;
-    color: #ffffff;
+    color: #adadad;
     margin-bottom: 5px;
-    display: block;
+    text-decoration: none;
 }
 
 .textoFooter:hover{
-    text-decoration: underline;
+    color: #ffffff;
+}
+
+.iconoLocalizacion{
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+.iconoTelefono{
+    width: auto;
+    height:auto;
+    padding: 5px;
+}
+
+.iconoMail{
+    width: auto;
+    height: auto;
+    padding: 5px;
 }
 
 .footerBottom{
@@ -724,7 +753,7 @@ footer{
     margin-top: 20px;
     border-top: 1px solid #828684;
     padding-top: 10px;
-    width: 1440px;
+    width: 100%;
 }
 
 .miniInfo{
@@ -732,34 +761,7 @@ footer{
     color: #828684;
 }
 
-.footerMain ul{
-    padding: 0;
-}
 
-.footerMain li{
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-}
-
-.iconoLocalizacion{
-    width: auto;
-    height: auto;
-}
-
-.iconoTelefono{
-    width: auto;
-    height:auto;
-}
-
-.iconoMail{
-    width: auto;
-    height: auto;
-}
-
-.footerMain li a img{
-    margin-right: 0;
-}
 
 
 /*  */
@@ -784,93 +786,191 @@ h5{
 
 /* BLOG PAGE - RESPONSIVE - TABLET */
 
-@media (max-width:768px){
-    
-    nav{
-        flex-direction: row;
-    }
-
-    nav ul{
-        gap: 60px;
-    }
-
-    .actualNavBar{
-    font-size: 12px;
-    }
-
-    .navBar{
-        font-size: 12px;
-    }
-
-    .logoNav{
-        width: 45.9px;
-        height: 34.2px;
-        margin-bottom: 20px;
-        margin-right: 100px;
-    }
-
-    .barraBuscar{
-        width: 15rem;
-        margin-left: 650px;
-        margin-right: 0;
-    }
-
-    .barraBuscar input{
-        width: 290px;
-        font-size: 14px;
-    }
-
-    h1{ 
-    font-size: 60px;
-    margin-left: 65px;
-    }
-
-    .infoBlog{
-        width: 100%;
-        margin: 50px 0 0 65px;
-        font-size: 15px;
-    }
+@media (max-width:1024px){
 
     .contenedorBlog{
-        margin-left: 42px;
-        gap: 1.25rem;
-    }
-
-    h3{
-        margin: 40px 0 10px 65px;
-        font-size: 18px;
+        gap: 15px;
+        margin-bottom: 40px;
+        padding: 10px;
     }
 
     .card-blog{
-        width: 427.5px;
-        height: 375px;
+        width: 360px;
+        height: 280px;
+        grid-template-columns: 130px 230px;
     }
 
     .card-blog img{
-        width: 202.5px;
-        height: 375px;
+        width: 130px;
+        height: 280px;
     }
 
     .card-blog-texto{
-        padding: 20px;
+        padding: 15px;
+        width: 230px;
+        height: auto;
+    }
+
+    .tituloCardsBlog{
+        font-size: 14px;
+        font-weight: 400px;
     }
 
     .detalleCardsBlog{
         font-size: 12px;
-        font-weight: 300;
     }
 
     .card-blog-texto h5{
-        font-weight: 200;
-        font-size: 10.5px;
+        font-size: 9px;
     }
 
-    .card-blog-texto h4{
+    .card-blog-texto h5, .card-blog-texto h4, .card-blog-texto p{
+        margin: 4px;
+    }
+
+    .infoBlog{
         font-size: 16px;
-        font-weight: 600;
+        margin: 90px 20px;
     }
-
 }
 
-/* hola */
 
+@media (max-width:768px){
+
+        .contenedorBlog{
+            grid-template-columns: 1fr;
+        }
+
+        .card-blog{
+            width: 648px;
+            height: 282px;
+            grid-template-columns: 337px 311px;
+        }
+    
+        .card-blog img{
+            width: 337px;
+            height: 282px;
+            object-fit:cover;
+        }
+    
+        .card-blog-texto{
+            padding: 30px;
+            width: 311px;
+            height: 282px;
+        }
+    
+        .tituloCardsBlog{
+            font-size: 14px;
+            font-weight: 400px;
+        }
+    
+        .detalleCardsBlog{
+            font-size: 12px;
+        }
+    
+        .card-blog-texto h5{
+            font-size: 10px;
+        }
+    
+        .card-blog-texto h5, .card-blog-texto h4, .card-blog-texto p{
+            padding: 7px;
+            margin: 5px;
+        }
+    
+        .infoBlog{
+            font-size: 16px;
+            margin: 90px 20px;
+        }
+}
+
+
+@media (max-width: 500px){
+
+    .contenedorBlog{
+        grid-template-columns: 1fr;
+    }
+
+    .card-blog{
+        width: 364px;
+        height: 318px;
+        grid-template-columns: 172px 192px;
+    }
+
+    .card-blog img{
+        width: 172px;
+        height: 318px;
+        object-fit:cover;
+    }
+
+    .card-blog-texto{
+        padding: 10px;
+        width: 192px;
+        height: 318px;
+    }
+
+    .tituloCardsBlog{
+        font-size: 12px;
+        font-weight: 400px;
+    }
+
+    .detalleCardsBlog{
+        font-size: 12px;
+    }
+
+    .card-blog-texto h5{
+        font-size: 10px;
+    }
+
+    .card-blog-texto h5, .card-blog-texto h4, .card-blog-texto p{
+        padding: 7px;
+        margin: 5px;
+    }
+
+    .infoBlog{
+        font-size: 12px;
+        margin: 90px 20px;
+    }
+
+    h3{
+        font-size: 14px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+
+    footer .container-fluid{
+    padding: 0px 10px;
+    }
+
+
+
+    .col-xs-12.col-md-6.col-lg-3{
+        text-align: left;
+    }
+    
+    .col-xs-12.col-md-6.col-lg-3 p{
+        padding-left: 20px;
+        padding-bottom: 3px;
+        font-size: 12px;
+    }
+
+
+    .col-xs-12.col-md-6.col-lg-3 ul li{
+        padding: 2px 0;
+    }
+
+    .logofooter{
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+
+    .textoFooter{
+
+        font-size: 10px;
+    }
+
+    .miniInfo{
+        font-size: 8px;
+    }
+}
