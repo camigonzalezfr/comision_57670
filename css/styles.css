@@ -23,11 +23,13 @@
 .container-fluid{
     padding: 0 135px;
     align-items: center;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
 }
 
 .nav-item{
     letter-spacing: 6px;
-    font-size: 14px;
+    font-size: .875rem;
 }
 
 .nav-item:hover{
@@ -39,8 +41,8 @@
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     text-decoration: none;
-    letter-spacing: 6px;
-    font-size: 14px;
+    letter-spacing: .375rem;
+    font-size: .875rem;
 }
 
 .nav-link.mx-lg-2{
@@ -98,7 +100,7 @@ main{
 .barraBuscar input{
     all: unset;
     border-bottom: 1px solid #333333;
-    font-size: 17px;
+    font-size: 1.0625rem;
     width: 367px;
 }
 
@@ -109,7 +111,7 @@ main{
 
 /* titulo principal */
 h1{
-    font-size: 100px;
+    font-size: 6.25rem;
     font-weight: 700;
     color: #BED3CA;
     margin-left: 135px;
@@ -394,18 +396,18 @@ h1{
 /* estilos texto del index */
 
 .subtitulosInicio{
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #ffffff;
 }
 
 .detallesInicioInspi{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight:500;
     color: white;
 }
 
 .enlaceDetallesInicioInspi{
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: normal;
     text-decoration: underline;
     color: #ffffff;
@@ -413,12 +415,12 @@ h1{
 }
 
 .titulosImagenes{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
 .colorTe{
-    font-size: 60px;
+    font-size: 3.75rem;
     color:  #BED3CA;
 }
 
@@ -515,12 +517,12 @@ h1{
 }
 
 .titulosImagenes{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
 .detalleCardsExplorar{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: normal;
     color: #6a6a6a;
 }
@@ -559,7 +561,7 @@ h1{
 }
 
 .titulosImagenes{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
@@ -568,7 +570,7 @@ h1{
     right: 0;
     position: absolute;
     width: 100%;
-    height: 90%;
+    height: 100%;
     z-index: -1;
 }
 
