@@ -1,0 +1,202 @@
+//responsive 1024
+@media (max-width:1024px){
+
+    .contenedorBlog{
+        gap: 15px;
+        margin-bottom: 40px;
+        padding: 10px;
+    }
+
+    .card-blog{
+        width: 360px;
+        height: 280px;
+        grid-template-columns: 130px 230px;
+    }
+
+    .card-blog{
+        img{
+        width: 130px;
+        height: 280px;
+        }
+    } 
+
+    .card-blog-texto{
+        padding: 15px;
+        width: 230px;
+        height: auto;
+    }
+
+    .tituloCardsBlog{
+        font-size: .875rem;
+        font-weight: 400px;
+    }
+
+    .detalleCardsBlog{
+        font-size: .75rem;
+    }
+
+    .card-blog-texto{
+        h5{
+            font-size: .5625rem;
+        }
+    }
+
+    .card-blog-texto{
+        h5{
+            margin: 4px;
+        }
+        h4{
+            margin: 4px;
+        }
+        p{
+            margin: 4px;
+        }
+    }
+
+    .infoBlog{
+        font-size: 1rem;
+        margin: 90px 20px;
+    }
+}
+
+//responsive 768
+@media (max-width:768px){
+
+    .contenedorBlog{
+        grid-template-columns: 1fr;
+    }
+
+    .card-blog{
+        width: 648px;
+        height: 282px;
+        grid-template-columns: 337px 311px;
+    }
+
+    .card-blog{
+        img{
+        width: 337px;
+        height: 282px;
+        object-fit:cover;
+        }
+    }
+
+    .card-blog-texto{
+        padding: 30px;
+        width: 311px;
+        height: 282px;
+    }
+
+    .tituloCardsBlog{
+        font-size: .875rem;
+        font-weight: 400px;
+    }
+
+    .detalleCardsBlog{
+        font-size: .75rem;
+    }
+
+    .card-blog-texto{
+        h5{
+            font-size: .625rem;
+        }
+    }
+
+    .card-blog-texto{
+        h5{
+            padding: 7px;
+            margin: 5px;
+        }
+        h4{
+            padding: 7px;
+            margin: 5px;
+        }
+        p{
+            padding: 7px;
+            margin: 5px;
+        }
+    }
+
+    .infoBlog{
+        font-size: 1rem;
+        margin: 90px 20px;
+    }
+}
+
+//responsive 500
+@media (max-width: 500px){
+
+    .card-blog{
+        width: 364px;
+        height: 318px;
+        grid-template-columns: 172px 192px;
+    }
+
+    .card-blog{
+        img{
+            width: 172px;
+            height: 318px;
+            object-fit:cover;
+        }
+    }
+
+    .card-blog-texto{
+        padding: 10px;
+        width: 192px;
+        height: 318px;
+    }
+
+    .tituloCardsBlog{
+        font-size: .75rem;
+        font-weight: 400px;
+    }
+
+    .infoBlog{
+        font-size: .75rem;
+    }
+
+    h3{
+        font-size: .875rem;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+
+    footer .container-fluid{
+    padding: 0px 10px;
+    }
+
+
+
+    .col-xs-12.col-md-6.col-lg-3{
+        text-align: left;
+    }
+    
+    .col-xs-12.col-md-6.col-lg-3 p{
+        padding-left: 20px;
+        padding-bottom: 3px;
+        font-size: .75rem;
+    }
+
+
+    .col-xs-12.col-md-6.col-lg-3 ul li{
+        padding: 2px 0;
+    }
+
+    .logofooter{
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+
+    .textoFooter{
+
+        font-size: .625rem;
+    }
+
+    .miniInfo{
+        font-size: .5rem;
+    }
+}
+
+//responsive 320
+

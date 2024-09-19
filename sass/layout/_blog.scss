@@ -1,0 +1,59 @@
+.infoBlog{
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 87px 135px 63px 135px
+}
+
+
+.contenedorBlog{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.card-blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #3C4541;
+    width: 570px;
+    height: 500px;
+    img{
+        width: 270px;
+        height: 500px;
+    }
+}
+
+.card-blog-texto{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h5{
+        margin: 10px 0;
+        text-align: right;
+    }
+    h4{
+        margin: 10px 0;
+        text-align: right;
+    }
+    p{
+        margin: 10px 0;
+        text-align: right;
+    }
+}
+
+.tituloCardsBlog{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.detalleCardsBlog{
+    font-size: 1rem;
+    font-weight: normal;
+    color: #ffffff;
+}

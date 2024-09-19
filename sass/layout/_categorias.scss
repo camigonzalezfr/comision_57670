@@ -1,0 +1,41 @@
+.contenedorCategorias{
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 65px;
+    article{
+        position: relative;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.tituloEspacios, .tituloEstilos, .tituloMuebles{
+    text-align: left;
+    margin: 0;
+    padding: 1em;
+}
+
+.contenedorEspacios, .contenedorEstilos, .contenedorMuebles{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,370px);
+    grid-gap: 150px;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.titulosImagenes{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.fondo-verde-1, .fondo-verde-2, .fondo-verde-3{
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
